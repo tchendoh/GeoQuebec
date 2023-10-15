@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57593CCA2ADF2D900012718C /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57593CC92ADF2D900012718C /* ResultListView.swift */; };
+		577DDA0A2ADC5AFC003AEF0D /* GeoQuebecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA092ADC5AFC003AEF0D /* GeoQuebecApp.swift */; };
+		577DDA0E2ADC5AFF003AEF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA0D2ADC5AFF003AEF0D /* Assets.xcassets */; };
+		577DDA112ADC5AFF003AEF0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA102ADC5AFF003AEF0D /* Preview Assets.xcassets */; };
+		577DDA1B2ADC5B00003AEF0D /* GeoQuebecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */; };
+		577DDA252ADC5B00003AEF0D /* GeoQuebecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA242ADC5B00003AEF0D /* GeoQuebecUITests.swift */; };
+		577DDA272ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA262ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift */; };
+		577DDA432ADC5BCD003AEF0D /* GeoJsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA342ADC5BCC003AEF0D /* GeoJsonService.swift */; };
+		577DDA442ADC5BCD003AEF0D /* AnswerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA362ADC5BCD003AEF0D /* AnswerCard.swift */; };
+		577DDA452ADC5BCD003AEF0D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA372ADC5BCD003AEF0D /* MapView.swift */; };
+		577DDA462ADC5BCD003AEF0D /* AnswerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA382ADC5BCD003AEF0D /* AnswerListView.swift */; };
+		577DDA472ADC5BCD003AEF0D /* ZoomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA392ADC5BCD003AEF0D /* ZoomMenuView.swift */; };
+		577DDA482ADC5BCD003AEF0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA3A2ADC5BCD003AEF0D /* ContentView.swift */; };
+		577DDA492ADC5BCD003AEF0D /* RegionsQuebecSimplified.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA3C2ADC5BCD003AEF0D /* RegionsQuebecSimplified.geojson */; };
+		577DDA4A2ADC5BCD003AEF0D /* RegionsQuebec2023.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA3D2ADC5BCD003AEF0D /* RegionsQuebec2023.geojson */; };
+		577DDA4B2ADC5BCD003AEF0D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA3F2ADC5BCD003AEF0D /* ViewModel.swift */; };
+		577DDA4C2ADC5BCD003AEF0D /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA412ADC5BCD003AEF0D /* Area.swift */; };
+		577DDA4D2ADC5BCD003AEF0D /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA422ADC5BCD003AEF0D /* Answer.swift */; };
+		57DBD2BB2AED9060008EA458 /* ScoreboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DBD2BA2AED9060008EA458 /* ScoreboardView.swift */; };
+		57FEB7A92AE81361003DB3C6 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEB7A82AE81361003DB3C6 /* ResultCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		577DDA172ADC5B00003AEF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577DD9FE2ADC5AFC003AEF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577DDA052ADC5AFC003AEF0D;
+			remoteInfo = GeoQuebec;
+		};
+		577DDA212ADC5B00003AEF0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577DD9FE2ADC5AFC003AEF0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577DDA052ADC5AFC003AEF0D;
+			remoteInfo = GeoQuebec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57593CC92ADF2D900012718C /* ResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
+		577DDA062ADC5AFC003AEF0D /* GeoQuebec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuebec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577DDA092ADC5AFC003AEF0D /* GeoQuebecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecApp.swift; sourceTree = "<group>"; };
+		577DDA0D2ADC5AFF003AEF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577DDA102ADC5AFF003AEF0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		577DDA162ADC5B00003AEF0D /* GeoQuebecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuebecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecTests.swift; sourceTree = "<group>"; };
+		577DDA202ADC5B00003AEF0D /* GeoQuebecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuebecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		577DDA242ADC5B00003AEF0D /* GeoQuebecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecUITests.swift; sourceTree = "<group>"; };
+		577DDA262ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		577DDA342ADC5BCC003AEF0D /* GeoJsonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoJsonService.swift; sourceTree = "<group>"; };
+		577DDA362ADC5BCD003AEF0D /* AnswerCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCard.swift; sourceTree = "<group>"; };
+		577DDA372ADC5BCD003AEF0D /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		577DDA382ADC5BCD003AEF0D /* AnswerListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerListView.swift; sourceTree = "<group>"; };
+		577DDA392ADC5BCD003AEF0D /* ZoomMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomMenuView.swift; sourceTree = "<group>"; };
+		577DDA3A2ADC5BCD003AEF0D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		577DDA3C2ADC5BCD003AEF0D /* RegionsQuebecSimplified.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RegionsQuebecSimplified.geojson; sourceTree = "<group>"; };
+		577DDA3D2ADC5BCD003AEF0D /* RegionsQuebec2023.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RegionsQuebec2023.geojson; sourceTree = "<group>"; };
+		577DDA3F2ADC5BCD003AEF0D /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		577DDA412ADC5BCD003AEF0D /* Area.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		577DDA422ADC5BCD003AEF0D /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		57DBD2BA2AED9060008EA458 /* ScoreboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreboardView.swift; sourceTree = "<group>"; };
+		57FEB7A82AE81361003DB3C6 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577DDA032ADC5AFC003AEF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA132ADC5B00003AEF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA1D2ADC5B00003AEF0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577DD9FD2ADC5AFC003AEF0D = {
+			isa = PBXGroup;
+			children = (
+				577DDA082ADC5AFC003AEF0D /* GeoQuebec */,
+				577DDA192ADC5B00003AEF0D /* GeoQuebecTests */,
+				577DDA232ADC5B00003AEF0D /* GeoQuebecUITests */,
+				577DDA072ADC5AFC003AEF0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		577DDA072ADC5AFC003AEF0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA062ADC5AFC003AEF0D /* GeoQuebec.app */,
+				577DDA162ADC5B00003AEF0D /* GeoQuebecTests.xctest */,
+				577DDA202ADC5B00003AEF0D /* GeoQuebecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577DDA082ADC5AFC003AEF0D /* GeoQuebec */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA092ADC5AFC003AEF0D /* GeoQuebecApp.swift */,
+				577DDA402ADC5BCD003AEF0D /* Model */,
+				577DDA3E2ADC5BCD003AEF0D /* ViewModel */,
+				577DDA352ADC5BCD003AEF0D /* View */,
+				577DDA332ADC5BCC003AEF0D /* Service */,
+				577DDA3B2ADC5BCD003AEF0D /* Data */,
+				577DDA0D2ADC5AFF003AEF0D /* Assets.xcassets */,
+				577DDA0F2ADC5AFF003AEF0D /* Preview Content */,
+			);
+			path = GeoQuebec;
+			sourceTree = "<group>";
+		};
+		577DDA0F2ADC5AFF003AEF0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA102ADC5AFF003AEF0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		577DDA192ADC5B00003AEF0D /* GeoQuebecTests */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */,
+			);
+			path = GeoQuebecTests;
+			sourceTree = "<group>";
+		};
+		577DDA232ADC5B00003AEF0D /* GeoQuebecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA242ADC5B00003AEF0D /* GeoQuebecUITests.swift */,
+				577DDA262ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift */,
+			);
+			path = GeoQuebecUITests;
+			sourceTree = "<group>";
+		};
+		577DDA332ADC5BCC003AEF0D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA342ADC5BCC003AEF0D /* GeoJsonService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		577DDA352ADC5BCD003AEF0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA3A2ADC5BCD003AEF0D /* ContentView.swift */,
+				577DDA372ADC5BCD003AEF0D /* MapView.swift */,
+				577DDA392ADC5BCD003AEF0D /* ZoomMenuView.swift */,
+				577DDA382ADC5BCD003AEF0D /* AnswerListView.swift */,
+				57593CC92ADF2D900012718C /* ResultListView.swift */,
+				577DDA362ADC5BCD003AEF0D /* AnswerCard.swift */,
+				57FEB7A82AE81361003DB3C6 /* ResultCard.swift */,
+				57DBD2BA2AED9060008EA458 /* ScoreboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		577DDA3B2ADC5BCD003AEF0D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA3C2ADC5BCD003AEF0D /* RegionsQuebecSimplified.geojson */,
+				577DDA3D2ADC5BCD003AEF0D /* RegionsQuebec2023.geojson */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		577DDA3E2ADC5BCD003AEF0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA3F2ADC5BCD003AEF0D /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		577DDA402ADC5BCD003AEF0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				577DDA412ADC5BCD003AEF0D /* Area.swift */,
+				577DDA422ADC5BCD003AEF0D /* Answer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577DDA052ADC5AFC003AEF0D /* GeoQuebec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577DDA2A2ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebec" */;
+			buildPhases = (
+				577DDA022ADC5AFC003AEF0D /* Sources */,
+				577DDA032ADC5AFC003AEF0D /* Frameworks */,
+				577DDA042ADC5AFC003AEF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuebec;
+			productName = GeoQuebec;
+			productReference = 577DDA062ADC5AFC003AEF0D /* GeoQuebec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		577DDA152ADC5B00003AEF0D /* GeoQuebecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577DDA2D2ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebecTests" */;
+			buildPhases = (
+				577DDA122ADC5B00003AEF0D /* Sources */,
+				577DDA132ADC5B00003AEF0D /* Frameworks */,
+				577DDA142ADC5B00003AEF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577DDA182ADC5B00003AEF0D /* PBXTargetDependency */,
+			);
+			name = GeoQuebecTests;
+			productName = GeoQuebecTests;
+			productReference = 577DDA162ADC5B00003AEF0D /* GeoQuebecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		577DDA1F2ADC5B00003AEF0D /* GeoQuebecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577DDA302ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebecUITests" */;
+			buildPhases = (
+				577DDA1C2ADC5B00003AEF0D /* Sources */,
+				577DDA1D2ADC5B00003AEF0D /* Frameworks */,
+				577DDA1E2ADC5B00003AEF0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				577DDA222ADC5B00003AEF0D /* PBXTargetDependency */,
+			);
+			name = GeoQuebecUITests;
+			productName = GeoQuebecUITests;
+			productReference = 577DDA202ADC5B00003AEF0D /* GeoQuebecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577DD9FE2ADC5AFC003AEF0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					577DDA052ADC5AFC003AEF0D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					577DDA152ADC5B00003AEF0D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 577DDA052ADC5AFC003AEF0D;
+					};
+					577DDA1F2ADC5B00003AEF0D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 577DDA052ADC5AFC003AEF0D;
+					};
+				};
+			};
+			buildConfigurationList = 577DDA012ADC5AFC003AEF0D /* Build configuration list for PBXProject "GeoQuebec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577DD9FD2ADC5AFC003AEF0D;
+			productRefGroup = 577DDA072ADC5AFC003AEF0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577DDA052ADC5AFC003AEF0D /* GeoQuebec */,
+				577DDA152ADC5B00003AEF0D /* GeoQuebecTests */,
+				577DDA1F2ADC5B00003AEF0D /* GeoQuebecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577DDA042ADC5AFC003AEF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DDA112ADC5AFF003AEF0D /* Preview Assets.xcassets in Resources */,
+				577DDA0E2ADC5AFF003AEF0D /* Assets.xcassets in Resources */,
+				577DDA492ADC5BCD003AEF0D /* RegionsQuebecSimplified.geojson in Resources */,
+				577DDA4A2ADC5BCD003AEF0D /* RegionsQuebec2023.geojson in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA142ADC5B00003AEF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA1E2ADC5B00003AEF0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577DDA022ADC5AFC003AEF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DDA4C2ADC5BCD003AEF0D /* Area.swift in Sources */,
+				577DDA4B2ADC5BCD003AEF0D /* ViewModel.swift in Sources */,
+				577DDA442ADC5BCD003AEF0D /* AnswerCard.swift in Sources */,
+				577DDA482ADC5BCD003AEF0D /* ContentView.swift in Sources */,
+				57FEB7A92AE81361003DB3C6 /* ResultCard.swift in Sources */,
+				577DDA4D2ADC5BCD003AEF0D /* Answer.swift in Sources */,
+				577DDA452ADC5BCD003AEF0D /* MapView.swift in Sources */,
+				577DDA0A2ADC5AFC003AEF0D /* GeoQuebecApp.swift in Sources */,
+				577DDA472ADC5BCD003AEF0D /* ZoomMenuView.swift in Sources */,
+				577DDA462ADC5BCD003AEF0D /* AnswerListView.swift in Sources */,
+				57593CCA2ADF2D900012718C /* ResultListView.swift in Sources */,
+				57DBD2BB2AED9060008EA458 /* ScoreboardView.swift in Sources */,
+				577DDA432ADC5BCD003AEF0D /* GeoJsonService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA122ADC5B00003AEF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DDA1B2ADC5B00003AEF0D /* GeoQuebecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		577DDA1C2ADC5B00003AEF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577DDA252ADC5B00003AEF0D /* GeoQuebecUITests.swift in Sources */,
+				577DDA272ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		577DDA182ADC5B00003AEF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577DDA052ADC5AFC003AEF0D /* GeoQuebec */;
+			targetProxy = 577DDA172ADC5B00003AEF0D /* PBXContainerItemProxy */;
+		};
+		577DDA222ADC5B00003AEF0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577DDA052ADC5AFC003AEF0D /* GeoQuebec */;
+			targetProxy = 577DDA212ADC5B00003AEF0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		577DDA282ADC5B00003AEF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		577DDA292ADC5B00003AEF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577DDA2B2ADC5B00003AEF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoQuebec/Preview Content\"";
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GéoQuébec";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577DDA2C2ADC5B00003AEF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GeoQuebec/Preview Content\"";
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "GéoQuébec";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		577DDA2E2ADC5B00003AEF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuebec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoQuebec";
+			};
+			name = Debug;
+		};
+		577DDA2F2ADC5B00003AEF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuebec.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoQuebec";
+			};
+			name = Release;
+		};
+		577DDA312ADC5B00003AEF0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoQuebec;
+			};
+			name = Debug;
+		};
+		577DDA322ADC5B00003AEF0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8DKX94TR7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chummey.GeoQuebecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoQuebec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577DDA012ADC5AFC003AEF0D /* Build configuration list for PBXProject "GeoQuebec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577DDA282ADC5B00003AEF0D /* Debug */,
+				577DDA292ADC5B00003AEF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577DDA2A2ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577DDA2B2ADC5B00003AEF0D /* Debug */,
+				577DDA2C2ADC5B00003AEF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577DDA2D2ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577DDA2E2ADC5B00003AEF0D /* Debug */,
+				577DDA2F2ADC5B00003AEF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577DDA302ADC5B00003AEF0D /* Build configuration list for PBXNativeTarget "GeoQuebecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577DDA312ADC5B00003AEF0D /* Debug */,
+				577DDA322ADC5B00003AEF0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 577DD9FE2ADC5AFC003AEF0D /* Project object */;
+}
