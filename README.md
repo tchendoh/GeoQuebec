@@ -1,4 +1,4 @@
-# GeoQuebec
+# GéoQuebec
 Geography game about Québec. Only a demo app for now. I'm practicing stuff. :)
 
 iPad app for now but I might add iPhone support later.
