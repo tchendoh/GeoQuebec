@@ -35,10 +35,10 @@ enum AreaSize: Double {
     init() {
         Task {
             areas = await GeoJsonService.getAreas()
-            areas = Array(areas.prefix(5)) // temporaire pour tester
+//            areas = Array(areas.prefix(5)) // To test faster with less regions
             distributeRandomIdsToAreas()
             generateAnswers()
-            sortAnswersByName() // adapter plus tard aux traductions
+            sortAnswersByName() // not traduction friendly yet
             setCamera(to: .wholeMap)
         }
     }
