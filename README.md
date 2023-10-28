@@ -1,10 +1,10 @@
 # GeoQuebec
 Geography game about Québec. Only a demo app for now. I'm practicing stuff. :)
 
+iPad app for now but I might add iPhone support later.
+
 # Goal of the game
 Put the right name on the right regions!
-
-iPad app for now but I might add iPhone support later.
 
 # Plenty left to do
 - Unit tests
