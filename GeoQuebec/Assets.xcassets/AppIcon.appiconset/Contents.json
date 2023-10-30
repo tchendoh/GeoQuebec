@@ -1,109 +1,109 @@
 {
   "images" : [
     {
-      "filename" : "MapQ-20@2x.png",
+      "filename" : "GeoQuebecIcon-20@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "MapQ-20@3x.png",
+      "filename" : "GeoQuebecIcon-20@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "MapQ-29@2x.png",
+      "filename" : "GeoQuebecIcon-29@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "MapQ-29@3x.png",
+      "filename" : "GeoQuebecIcon-29@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "MapQ-40@2x.png",
+      "filename" : "GeoQuebecIcon-40@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "MapQ-40@3x.png",
+      "filename" : "GeoQuebecIcon-40@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "MapQ-60@2x.png",
+      "filename" : "GeoQuebecIcon-60@2x.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "MapQ-60@3x.png",
+      "filename" : "GeoQuebecIcon-60@3x.png",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "MapQ-20.png",
+      "filename" : "GeoQuebecIcon-20.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "20x20"
     },
     {
-      "filename" : "MapQ-20@2x.png",
+      "filename" : "GeoQuebecIcon-20@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "MapQ-29.png",
+      "filename" : "GeoQuebecIcon-29.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "29x29"
     },
     {
-      "filename" : "MapQ-29@2x.png",
+      "filename" : "GeoQuebecIcon-29@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "MapQ-40.png",
+      "filename" : "GeoQuebecIcon-40.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "40x40"
     },
     {
-      "filename" : "MapQ-40@2x.png",
+      "filename" : "GeoQuebecIcon-40@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "MapQ-76.png",
+      "filename" : "GeoQuebecIcon-76.png",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
-      "filename" : "MapQ-76@2x.png",
+      "filename" : "GeoQuebecIcon-76@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
-      "filename" : "MapQ-83.5@2x.png",
+      "filename" : "GeoQuebecIcon-83.5@2x.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "MapQ-1024.png",
+      "filename" : "GeoQuebecIcon-1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
