@@ -11,6 +11,7 @@ import MapKit
 
 struct ContentView: View {
     @Environment(ViewModel.self) private var viewModel: ViewModel
+    @State var endGameEffect: CGFloat = 0.0
     
     var body: some View {
         ZStack {
@@ -27,19 +28,38 @@ struct ContentView: View {
                     else {
                         AnswerListView()
                             .padding()
+                        
                     }
                 }
-            if viewModel.isGameOver {
-                HStack {
-                    VStack {
+            HStack {
+                VStack {
+                    if viewModel.isGameOver {
                         ScoreboardView()
                             .padding()
-                        Spacer()
+                    } else {
+                        CountdownView(timeRemaining: CGFloat(viewModel.answers.count) * 10)
+                            .padding()
                     }
                     Spacer()
                 }
+                Spacer()
             }
+            Color.green
+                .ignoresSafeArea()
+                .opacity(endGameEffect)
         }
+        .onChange(of: viewModel.isGameOver) { oldValue, newValue in
+            withAnimation(.easeOut(duration: 1.2)) {
+                endGameEffect = 1.0
+            } completion: {
+                withAnimation {
+                    endGameEffect = 0.0
+                }
+            
+            }
+
+        }
+
     }
 }
 

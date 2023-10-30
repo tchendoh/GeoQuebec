@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		574717AD2AF27A3F0013AE4D /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574717AC2AF27A3F0013AE4D /* CountdownView.swift */; };
 		57593CCA2ADF2D900012718C /* ResultListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57593CC92ADF2D900012718C /* ResultListView.swift */; };
 		577DDA0A2ADC5AFC003AEF0D /* GeoQuebecApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA092ADC5AFC003AEF0D /* GeoQuebecApp.swift */; };
 		577DDA0E2ADC5AFF003AEF0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA0D2ADC5AFF003AEF0D /* Assets.xcassets */; };
 		577DDA112ADC5AFF003AEF0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577DDA102ADC5AFF003AEF0D /* Preview Assets.xcassets */; };
-		577DDA1B2ADC5B00003AEF0D /* GeoQuebecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */; };
+		577DDA1B2ADC5B00003AEF0D /* GeoQuebecUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA1A2ADC5B00003AEF0D /* GeoQuebecUnitTests.swift */; };
 		577DDA252ADC5B00003AEF0D /* GeoQuebecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA242ADC5B00003AEF0D /* GeoQuebecUITests.swift */; };
 		577DDA272ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA262ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift */; };
 		577DDA432ADC5BCD003AEF0D /* GeoJsonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577DDA342ADC5BCC003AEF0D /* GeoJsonService.swift */; };
@@ -47,13 +48,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		574717AC2AF27A3F0013AE4D /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
 		57593CC92ADF2D900012718C /* ResultListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListView.swift; sourceTree = "<group>"; };
 		577DDA062ADC5AFC003AEF0D /* GeoQuebec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuebec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		577DDA092ADC5AFC003AEF0D /* GeoQuebecApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecApp.swift; sourceTree = "<group>"; };
 		577DDA0D2ADC5AFF003AEF0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		577DDA102ADC5AFF003AEF0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		577DDA162ADC5B00003AEF0D /* GeoQuebecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuebecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecTests.swift; sourceTree = "<group>"; };
+		577DDA1A2ADC5B00003AEF0D /* GeoQuebecUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecUnitTests.swift; sourceTree = "<group>"; };
 		577DDA202ADC5B00003AEF0D /* GeoQuebecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuebecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		577DDA242ADC5B00003AEF0D /* GeoQuebecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecUITests.swift; sourceTree = "<group>"; };
 		577DDA262ADC5B00003AEF0D /* GeoQuebecUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuebecUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -101,7 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				577DDA082ADC5AFC003AEF0D /* GeoQuebec */,
-				577DDA192ADC5B00003AEF0D /* GeoQuebecTests */,
+				577DDA192ADC5B00003AEF0D /* GeoQuebecUnitTests */,
 				577DDA232ADC5B00003AEF0D /* GeoQuebecUITests */,
 				577DDA072ADC5AFC003AEF0D /* Products */,
 			);
@@ -140,12 +142,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		577DDA192ADC5B00003AEF0D /* GeoQuebecTests */ = {
+		577DDA192ADC5B00003AEF0D /* GeoQuebecUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				577DDA1A2ADC5B00003AEF0D /* GeoQuebecTests.swift */,
+				577DDA1A2ADC5B00003AEF0D /* GeoQuebecUnitTests.swift */,
 			);
-			path = GeoQuebecTests;
+			path = GeoQuebecUnitTests;
 			sourceTree = "<group>";
 		};
 		577DDA232ADC5B00003AEF0D /* GeoQuebecUITests */ = {
@@ -176,6 +178,7 @@
 				577DDA362ADC5BCD003AEF0D /* AnswerCard.swift */,
 				57FEB7A82AE81361003DB3C6 /* ResultCard.swift */,
 				57DBD2BA2AED9060008EA458 /* ScoreboardView.swift */,
+				574717AC2AF27A3F0013AE4D /* CountdownView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				577DDA0A2ADC5AFC003AEF0D /* GeoQuebecApp.swift in Sources */,
 				577DDA472ADC5BCD003AEF0D /* ZoomMenuView.swift in Sources */,
 				577DDA462ADC5BCD003AEF0D /* AnswerListView.swift in Sources */,
+				574717AD2AF27A3F0013AE4D /* CountdownView.swift in Sources */,
 				57593CCA2ADF2D900012718C /* ResultListView.swift in Sources */,
 				57DBD2BB2AED9060008EA458 /* ScoreboardView.swift in Sources */,
 				577DDA432ADC5BCD003AEF0D /* GeoJsonService.swift in Sources */,
@@ -358,7 +362,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577DDA1B2ADC5B00003AEF0D /* GeoQuebecTests.swift in Sources */,
+				577DDA1B2ADC5B00003AEF0D /* GeoQuebecUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

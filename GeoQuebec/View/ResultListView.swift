@@ -13,7 +13,7 @@ struct ResultListView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             VStack (spacing: 1) {
-                ForEach(Array(viewModel.choices.keys.sorted(by: <)), id:\.self) { areaId in
+                ForEach(viewModel.areaList, id: \.self) { areaId in
                     ZStack {
                         ResultCard(areaId: areaId)
                     }

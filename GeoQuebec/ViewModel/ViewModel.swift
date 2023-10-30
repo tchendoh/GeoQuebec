@@ -31,6 +31,7 @@ enum AreaSize: Double {
     var isGameOver: Bool = false
     var focusedAreaId: Int?
     var unvailedAreas: Set<Int> = []
+    var areaList: [Int] = []
     
     init() {
         Task {
@@ -38,7 +39,7 @@ enum AreaSize: Double {
 //            areas = Array(areas.prefix(5)) // To test faster with less regions
             distributeRandomIdsToAreas()
             generateAnswers()
-            sortAnswersByName() // not traduction friendly yet
+            sortAnswersByName() // not traduction-friendly yet
             setCamera(to: .wholeMap)
         }
     }
@@ -111,7 +112,7 @@ extension ViewModel {
         return answers[index].name
     }
     
-    func makeChoice(areaId: Int, answerId: UUID) {
+    func addChoice(areaId: Int, answerId: UUID) {
         choices[areaId] = answerId
     }
 
@@ -137,6 +138,10 @@ extension ViewModel {
     }
 
     func selectNextArea() {
+        guard !isGameOver else {
+            print("la game est finie, devrait pas avoir de selectNextArea")
+            return
+        }
         let listOfAllAreaIds = answers.map { $0.areaId }
         let remainingAreaIds = listOfAllAreaIds.filter { !choices.keys.contains($0) }
         
@@ -152,12 +157,6 @@ extension ViewModel {
         setCamera(to: .focusedArea)
     }
     
-    func endGame() {
-        isGameOver = true
-        focusedAreaId = nil
-        selectNextResult()
-    }
-
 }
 
 // MARK: Camera related
@@ -214,6 +213,25 @@ extension ViewModel {
 // MARK: The endgame
 extension ViewModel {
     
+    func endGame() {
+        guard !isGameOver else {
+            print("la game était déjà over et on l'a re-callé. ")
+            return
+        }
+        isGameOver = true
+        generateAreaList()
+        focusedAreaId = nil
+        selectNextResult()
+    }
+
+    func generateAreaList() {
+        for area in areas {
+            areaList.append(area.areaId)
+            print(area.areaId)
+        }
+        areaList.sort()
+    }
+
     func getNameFromAnswerId(_ answerId: UUID) -> String? {
         guard let index = indexOf(answerId: answerId) else {
             print("No index for answerId \(answerId).")

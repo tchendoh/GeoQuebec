@@ -64,7 +64,7 @@ struct AnswerCard: View {
             }
             else {
                 if let focusedAreaId = viewModel.focusedAreaId {
-                    viewModel.makeChoice(areaId: focusedAreaId, answerId: answer.id)
+                    viewModel.addChoice(areaId: focusedAreaId, answerId: answer.id)
                     viewModel.selectNextArea()
                 }
             }
