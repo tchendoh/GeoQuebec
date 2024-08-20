@@ -22,3 +22,6 @@ Jeu éducatif pour apprendre les régions administratives du Québec et savoir l
 ![Screenshot3](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot3.png)
 ![Screenshot4](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot4.png)
 ![Screenshot5](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot5.png)
+
+### Logo
+![Logo](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-icon.jpg)
