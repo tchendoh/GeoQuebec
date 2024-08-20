@@ -1,15 +1,24 @@
 # GéoQuébec
-Geography game about Québec. Only a demo app for now. I'm practicing stuff. :)
+Jeu éducatif pour apprendre les régions administratives du Québec et savoir les placer sur une carte avant que le temps soit écoulé.
 
-iPad app for now but I might add iPhone support later.
+## Objectifs
+- Expérimenter avec le nouveau MapKit pour SwiftUI
+- Changer d’angle de caméra de façon animée
+- Dessiner des polygones à partir d’un fichier GeoJSON du ministère contenant les régions du Québec
+- Utiliser un décompte qui déclenche des événements
+- Correction des résultats lorsque le jeu est terminé
 
-# Goal of the game
-Put the right name on the right regions!
+## Frameworks et technologies :
+- Framework MapKit (iOS 17)
+- Framework SwiftUI
+- Framework Observation (iOS 17)
+- Importation des données GeoJSON avec MKGeoJSONFeature
+- Animation pour changement de point de vue
+- Structure MVVM
 
-![SCR-20231028-ofja](https://github.com/tchendoh/GeoQuebec/assets/42325308/ec956b19-73f4-410d-81f2-00761b8b479e)
-
-
-# Plenty left to do
-- Unit tests
-- Tooltips from TipKit
-- Get the app to be a little less ugly. :) 
+### Captures d'écran
+![Screenshot1](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot1.jpeg)
+![Screenshot2](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot2.png)
+![Screenshot3](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot3.png)
+![Screenshot4](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot4.png)
+![Screenshot5](https://github.com/tchendoh/tchendoh.github.io/blob/main/images/GeoQuebec-screenshot5.png)
